@@ -1,0 +1,279 @@
+
+html {
+    height: 100%;
+}
+
+body{
+   font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(pics/back-home.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-food-option{
+    background-image: url(pics/food-optoins-back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-food{
+    background-image: url(pics/back-food.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-order-recieved{
+    background-image: url(pics/order-recieved-back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*================== HEADER ===================*/
+
+.body-food img{
+   padding: 0px 80px 0px 0px;     
+}
+
+
+
+#header i{
+    float: left;
+    padding-top: 20px;
+    color: white;
+    display: block;
+    padding-right: 10px;
+}
+
+#header-recieved i{
+    float: left;
+    padding-top: 20px;
+    color: black;
+    display: block;
+    padding-right: 10px;
+}
+
+#logo-img{
+    
+    display: block;
+    margin: auto; 
+    padding: 10px 5px 5px 5px;  
+}
+
+#logo-text{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding:1px; 
+    font-size: 40px;
+}
+
+/*================== HOME PAGE ===================*/
+
+/*======== GEN ITEM SELECTION ========*/
+
+.meal-option p{
+   font-size: 25px;
+}
+
+.gen-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: black ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+     
+    box-shadow:0px 1px 2px 0px;
+    border:0;
+    
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+
+
+/*================== 2ND SELECTION PAGE ===================*/
+
+.food-options h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+.food-options a{
+    text-decoration: none;
+}
+
+.food-list-item{
+    border: 1px solid #25FFDC;
+    margin: 5px;
+}
+
+.food-list-item h1{
+    font-weight: bold;
+    font-size: 20p;
+    color: black;
+    padding-left: 10px;
+}
+
+.food-list-item i{
+    float: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.food-list-item p{
+    font-size: 15px;
+    
+    color: #233C38 
+;
+    margin-top: -1p;
+    padding-left: 10px;
+}
+
+/*================== FOOD PAGE =========================*/
+
+
+.food-detail{
+    margin-left: 0px;
+    margin-right:180px;
+}
+
+.food-detail p{
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.food img{
+    padding-left: 75px;
+   
+}
+
+.food h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+
+/*======== ADDITIONS ========*/
+
+.additions h2{
+    font-size: 30px;
+   
+    margin: 0;
+    margin-right: 20px;
+}
+
+
+.additions label{
+    line-height: 22px;
+    margin-right: 0px;
+    float: left;
+    padding-left: 10px;
+    display: block;
+}
+
+.additions input{
+    float: left;
+    display: block;
+}
+
+#additions-price{
+    display: inline-block;
+    float: right;
+    color: white;
+    padding-bottom: 0px;
+    line-height: 0px;
+    
+}
+
+#additions-box p{
+    text-align: center;
+    color: black;
+}
+
+#additions-box a{
+    text-decoration: none;
+    color: black;
+}
+
+textarea{
+    width: 70%;
+    height: 100px;
+    margin: 12px 0;
+    border: 1px solid #929292; 
+} 
+
+/*================== RESPONSIVE LAYOUT ===================*/
+
+@media only screen and (min-width: 600px){
+    .body-food-option{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .body-food{
+        width: 80%;
+        margin: auto;
+    } 
+}
+
+@media only screen and (min-width: 1000px){
+    .body-food-option{
+        width: 60%;
+        margin: auto;
+    }
+    
+    .body-food{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    .body-food-option{
+        width: 40%;
+        margin: auto;
+    }
+    
+    .body-food{
+        width: 40%;
+        margin: auto;
+    } 
+}
+
+@media only screen and (min-width: 720px){
+    .body-food-option{
+    background-image: url(pics/food-optoins-back.jpg)';
+    }
+    .body-home{
+        background-image: url('pics/back-home.jpg')
+    }
+}
+
+
+
+
